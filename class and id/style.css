@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(132, 238, 241);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:rgb(20, 58, 129);
+}
+
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+*/
+
+/*
+    em HTMl só é permitido usar um id no código
+    difereça (id é único, class pode ter vários)
+*/
+
+h1#principal {  
+    text-align: center;
+    background-color:rgb(20, 58, 129);
+    color: white;
+}
+
+h2 {
+    color: rgb(7, 25, 58);
+}
+
+.basico {
+    color: white;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque {
+    background-color: black;
+}
+
